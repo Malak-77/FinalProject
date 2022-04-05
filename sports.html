@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sports</title>
+    <link rel="icon" href="./icon 1.png">
+    <link rel="stylesheet" href="./sports.css">
+    <style>
+        .button {
+  background-color: #eeb957; /* Green */
+  border: none;
+  color: rgb(10, 0, 0);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.botton{ 
+    background-color: #eeb957; /* Green */
+  border: none;
+  color: rgb(10, 0, 0);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.bottonm{
+    background-color: #eeb957; /* Green */
+
+  border: none;
+  color: rgb(10, 0, 0);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+.button1 {border-radius: 20px;}
+.button2 {border-radius: 20px;}
+.button3 {border-radius: 20px;}
+.button4 { border-radius: 15px; ;}
+    </style>
+</head>
+<body>
+    <!--menu-->
+<div class="font">
+    <button class="button button1" onclick="changeBox(sports) ">العاب قتالية </button>
+    <button class="button button2"onclick="changeBox(relax)">استرخاء</button>
+    <button class="button button3"onclick="changeBox(stor)">تسوق</button>
+  
+</div>
+<label class="intro" >الخدمات المتوفرة في صالتنا الرياضية  </label>
+</div>
+<div class="big">
+        
+ <div id="sports" style="display: flex;">
+    <div class="cell"> <img src="./img/boxing.webp" width="200px" alt="boxing">
+        <button class="botton button4">الملاكمة (من 19 سنه إلى 40 )</button>
+         <button class="bottonm button4"></button></div>
+    
+         <div class="cell"> <img src="./img/kart.jpg" width="200px" alt="boxing">
+            <button class="botton button4">الكراتية (من 4 سنين إلى 20 سنه)</button>
+             <button class="bottonm button4"></button></div>
+        
+             <div class="cell"> <img src="./img/taiko.webp" width="200px" alt="boxing">
+                <button class="botton button4">التايكوندو (من 7 سنين إلى 30 سنه)</button>
+                 <button class="bottonm button4"></button></div>
+    
+ </div>
+
+ <div id="relax" style="display: flex;">
+    <div class="cell"> <img src="./img/spa.jpg" width="200px" alt="boxing">
+        <button class="botton button4">السبا (من 13 الى ما فوق)</button>
+         <button class="bottonm button4"></button></div>
+    
+         <div class="cell"> <img src="./img/sawn.jpg" width="200px" alt="boxing">
+            <button class="botton button4">الساونا (من 13 الى ما فوق)</button>
+             <button class="bottonm button4"></button></div>
+         
+             <div class="cell"> <img src="./img/jakoze.jpg" width="200px" alt="boxing">
+                <button class="botton button4">الجاكوزي (من 13 الى ما فوق)</button>
+                 <button class="bottonm button4"></button></div>
+    
+ </div>
+
+ <div id="stor" style="display: flex;">
+    <div class="cell"> <img src="./img/gbox.jpg" width="200px" alt="boxing">
+        <button class="botton button4">قفازات الملاكمة (جميع المقاسات)</button>
+         <button class="bottonm button4" onclick="viewinfo(gbox)"></button></div>
+    
+         <div class="cell"> <img src="./img/hko.jpg" width="200px" alt="boxing">
+            <button class="botton button4">حماية للرأس (التايكوندو) (جميع المقاسات)</button>
+             <button class="bottonm button4" onclick="(viewinfo(hko)"></button></div>
+        
+             <div class="cell"> <img src="./img/pro.jpg" width="200px" alt="boxing">
+                <button class="botton button4">بروتينات (من 19 الى ما فوق)</button>
+                 <button class="bottonm button4" onclick="viewinfo(pro)"></button></div>
+    
+ </div>
+</div>
+
+<script src="./sports.js"></script>
+</body>
+</html>
